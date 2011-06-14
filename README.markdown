@@ -3,6 +3,11 @@ jQuery JSON-RPC Plugin
 
 A JSON-RPC 2.0 implementation for jQuery.
 
+What is JSON-RPC?
+-----------------
+
+JSON-RPC is a lightweight remote procedure call protocol. It's designed to be simple!
+
 Usage
 -----
 
