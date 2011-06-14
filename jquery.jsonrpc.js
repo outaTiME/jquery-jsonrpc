@@ -9,7 +9,7 @@
  * Note: If browser has not window.JSON you must require JSON libs from
  * Douglas Crockford <https://github.com/douglascrockford/JSON-js>.
  * 
- * @author outaTiME <http://twitter.com/outa7iME> (Ariel Falduto)
+ * @author outaTiME (afalduto [at] gmail dot com).
  * @version: 0.2.0 (2011-06-14)
  *
  * This document is licensed as free software under the terms of the
