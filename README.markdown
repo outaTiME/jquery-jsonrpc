@@ -12,25 +12,25 @@ Usage
 
 ### Parameter detail
 
-*   id:
+*   `id`:
     The request id.
 
-*   url:
+*   `url`:
     A string containing the URL to which the request is sent.
 
-*   method:
+*   `method`:
     A String containing the name of the method to be invoked.
 
-*   params:
+*   `params`:
     An object to pass as arguments to the method.
 
-*   success:
+*   `success`:
     A function to be called if the request succeeds.
 
-*   fault:
+*   `fault`:
     A function to be called if the request succeeds (but with error response).
 
-*   error:
+*   `error`:
     A function to be called if the request fails..
 
 Examples
