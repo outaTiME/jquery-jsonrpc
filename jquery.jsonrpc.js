@@ -3,8 +3,7 @@
  *
  * A JSON-RPC 2.0 implementation for jQuery.
  *
- * JSON-RPC is a stateless, light-weight remote procedure call (RPC) protocol.
- * Read more in the <http://groups.google.com/group/json-rpc/web/json-rpc-2-0>
+ * JSON-RPC is a lightweight remote procedure call protocol. It's designed to be simple!
  *
  * Note: If browser has not window.JSON you must require JSON libs from
  * Douglas Crockford <https://github.com/douglascrockford/JSON-js>.
