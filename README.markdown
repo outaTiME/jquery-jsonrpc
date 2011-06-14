@@ -8,12 +8,28 @@ Usage
 
 ### Invocation
 
-    $.jsonrpc([opt_opts]);
+    $.jsonrpc({
+      id: 1,
+      url: "foo",
+      method: "method",
+      params: {
+        // pass
+      },
+      success: function (response) {
+        // pass
+      },
+      fault: function (response, errordata) {
+        // pass
+      },
+      error: function (request, status, error) {
+        // pass
+      }
+    });
 
 ### Parameter detail
 
 *   `id`:
-    The request id.
+    The request id (optional).
 
 *   `url`:
     A string containing the URL to which the request is sent.
@@ -22,16 +38,16 @@ Usage
     A String containing the name of the method to be invoked.
 
 *   `params`:
-    An object to pass as arguments to the method.
+    An object to pass as arguments to the method (optional).
 
 *   `success`:
-    A function to be called if the request succeeds.
+    A function to be called if the request succeeds (optional).
 
 *   `fault`:
-    A function to be called if the request succeeds (but with error response).
+    A function to be called if the request succeeds (but with error response) (optional).
 
 *   `error`:
-    A function to be called if the request fails..
+    A function to be called if the request fails (optional).
 
 Examples
 --------
